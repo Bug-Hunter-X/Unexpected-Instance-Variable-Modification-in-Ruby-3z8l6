@@ -1,0 +1,2 @@
+# Unexpected Instance Variable Modification in Ruby
+This example demonstrates a scenario where directly modifying an instance variable using `instance_variable_set` can lead to unexpected behavior if you assume changes made through the getter method would affect the instance variable.  This is a subtle issue that can arise in less carefully designed classes.
